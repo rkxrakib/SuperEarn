@@ -20,11 +20,11 @@ const rtdb = admin.database();
 const appId = "1:593306264446:web:da476d4c77ae4ede6b492f";
 
 // ২. টেলিগ্রাম বট টোকেন
-const token = 'YOUR_BOT_TOKEN_HERE'; 
+const token = '8376769740:AAHN9qaBUnXMrtVViwJjCHe0iVZ7EbysbOE'; 
 const bot = new TelegramBot(token, {polling: true});
 
 // ৩. আপনার মিনি অ্যাপ লিংক
-const webAppUrl = 'https://your-hosting-url.com'; 
+const webAppUrl = 'https://amarbot.vercel.app/public'; 
 
 // ৪. ইউজারের স্টেট ট্র্যাকিং (Withdrawal এর জন্য)
 const userState = {};
