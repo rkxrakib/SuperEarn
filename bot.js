@@ -24,7 +24,7 @@ const token = '8376769740:AAHN9qaBUnXMrtVViwJjCHe0iVZ7EbysbOE';
 const bot = new TelegramBot(token, {polling: true});
 
 // ৩. আপনার মিনি অ্যাপ লিংক
-const webAppUrl = 'https://amarbot.vercel.app/public'; 
+const webAppUrl = 'https://amarbot.vercel.app'; 
 
 // ৪. ইউজারের স্টেট ট্র্যাকিং (Withdrawal এর জন্য)
 const userState = {};
